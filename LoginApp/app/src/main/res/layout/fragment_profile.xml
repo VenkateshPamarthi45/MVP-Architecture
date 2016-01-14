@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:text="First Name : "
+            android:textColor="@color/textColor" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/editProfileFirstName"
+            style="@style/textViewStyle"
+            android:text="First Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:text="Last Name : "
+            android:textColor="@color/textColor"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/editProfileLastName"
+            style="@style/textViewStyle"
+            android:text="Last Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:text="User Name : "
+            android:textColor="@color/textColor" />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:id="@+id/editProfileUserName"
+            android:text="User Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:text="Password : "
+            android:textColor="@color/textColor" />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:id="@+id/editProfilePassword"
+            android:text="Password" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:textColor="@color/textColor"
+            android:text="Phone Number : " />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:id="@+id/editProfilePhoneNumber"
+            android:text="Phone Number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:textColor="@color/textColor"
+            android:text="Email Address : " />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/textViewStyle"
+            android:id="@+id/editProfileEmailAddress"
+            android:text="Email Address" />
+    </LinearLayout>
+</LinearLayout>

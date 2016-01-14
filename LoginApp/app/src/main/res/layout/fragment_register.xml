@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPersonName"
+            android:hint="Enter First Name"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPersonName"
+            android:hint="Enter Last Name"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPersonName"
+            android:hint="Enter User Name"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:hint="Enter Password"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterRepeatPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:hint="Enter Phone Number"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextRegisterEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email Address"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/signUpButton"
+            android:layout_marginTop="8dp"
+            android:elevation="3dp"
+            android:background="@drawable/registerbutton_background_drawable"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
